@@ -72,4 +72,9 @@ public class UsuarioRepositoryQuerysImpl  implements  IUsuarioRepositoryQuerys{
     public Usuario findOneNombreUsuario(String username) {
         return usuriousHibernate.findOneUserName(username);
     }
+
+	@Override
+	public Usuario accesoLogin(String usuario, String contrasenia) {
+		return null;
+	}
 }
