@@ -33,9 +33,6 @@ public class Perfil implements Serializable {
     private Long idCliente;
 
 
-
-
-
     public Set<PerfilPost> getPerfils() {
         return perfilPosts;
     }
